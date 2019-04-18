@@ -1,0 +1,23 @@
+{
+  "name": "taskpixel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vlad",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "create-react-app": "^2.1.8",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.2"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "lint": "^1.1.2",
+    "nodemon": "^1.18.10"
+  }
+}
